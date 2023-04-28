@@ -11,7 +11,9 @@ import java.io.FileInputStream;
 import java.util.Properties;
 
 public class CommonUtility {
-
+/**
+@author - Gatikrishna
+ */
     public void readPropertiesFile(String filePath) {
         System.out.println(String.format("Executing readPropertiesFile :- " + filePath));
         try {
