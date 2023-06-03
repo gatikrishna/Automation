@@ -13,8 +13,8 @@ import org.junit.Assert;
 import utility.GlobalProperty;
 import utility.Utility;
 
+
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 import static io.restassured.RestAssured.*;
@@ -22,6 +22,7 @@ import static io.restassured.RestAssured.*;
 public class CommonStepDef {
 
     private Response response = null;
+
 
     @Given("User login to the application using {string} and {string}")
     public void user_login_to_the_application_using_and(String username, String password) throws Throwable {
